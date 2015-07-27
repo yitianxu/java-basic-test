@@ -70,10 +70,51 @@ public class test {
 		
 		values = new int[3]; 
 		 
-		
+	//	int [] numbers = {3,4,5};
 		values[0] = 10; 
+		values[1] = 8; 
+		values[2] = 60; 
+	//	values[3] = 30; 
 		System.out.println(values[0]);
+		
+		for (int i = 0; i  < values.length; i++) {
+			System.out.println(values[i]);
+			
+		}
+		
+		String[] words = new String[3]; 
+		// String [] words = {"xx","yy","zz"}; 
+	    words[0] = "hello"; 
+	    words[1] = "hello1";
+	    words[2] = "hello3";
+		
+	    for (String word: words) {
+	    	System.out.println(word);
+	    }
    
+	    int[][] grid = {
+	    		{1,2,3}, 
+	    		{3,4}
+	    		
+	    }; 
+	    
+	    System.out.println(grid[0][1]);
+	    
+	    String [][]arrays = new String[2][2];
+	    
+	    for (int i = 0; i < 2; i++) {
+	    	for (int j = 0; j < 2; j++) {
+	    		System.out.println ("st : " +  (i + j)); 
+	    		arrays[i][j] = String.valueOf(i + j);  	
+	    	}    	
+	    }
+	    System.out.println ("test"); 
+	    for (int i = 0; i < 2; i++) {
+	    	for (int j = 0; j < 2; j++) {
+	    		System.out.println(arrays[i][j]);
+	    	}    	
+	    }
+	    
 	}
 
 }
