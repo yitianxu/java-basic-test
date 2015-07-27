@@ -100,10 +100,10 @@ public class test {
 	    
 	    System.out.println(grid[0][1]);
 	    
-	    String [][]arrays = new String[2][2];
+	    String [][]arrays = new String[2][2]; //alternative String[2][]
 	    
-	    for (int i = 0; i < 2; i++) {
-	    	for (int j = 0; j < 2; j++) {
+	    for (int i = 0; i < 2 /*grid.length*/; i++) {
+	    	for (int j = 0; j < 2 /*grid[row].length*/; j++) {
 	    		System.out.println ("st : " +  (i + j)); 
 	    		arrays[i][j] = String.valueOf(i + j);  	
 	    	}    	
