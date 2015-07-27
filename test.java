@@ -6,6 +6,7 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	/*
 		System.out.println("test");
 
 		int value = 0;
@@ -64,7 +65,15 @@ public class test {
 			System.out.println("test");
 		
 		}; 
-
+		*/ 
+		int[] values; 
+		
+		values = new int[3]; 
+		 
+		
+		values[0] = 10; 
+		System.out.println(values[0]);
+   
 	}
 
 }
